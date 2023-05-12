@@ -1,0 +1,103 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand {
+    font-size: 28px;
+    font-style: bold;
+}
+.imgsize {
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}
+.btn {
+    border-radius: 0px;
+    position:absolute;
+    align-items: center;
+}
+.txt {
+    font-size: 60px;
+    text-shadow: 3px 3px black;
+    font-style: bold;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+}
+.size {
+    width:100%;
+    background-size: cover;
+    object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+    .btn {
+    margin-top: 50px;
+    }
+    .inamo p {
+        text-shadow: 2px 2px black;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(255, 255, 255);
+        margin-top: -50px;
+        text-align: center;
+        inline-size: 300px;
+    }
+    .txt{
+        margin-left: 60px;
+        margin-top: -120px;
+        font-size: 45px;
+        inline-size: 450px;
+}
+    
+    
+}
+@media only screen and (min-width: 600px) {
+    .txt {
+    font-size: 60px;
+    inline-size:500px;
+    margin-top: -180px;
+    margin-left: 45px;
+    }
+    .btn {
+        margin-top: -60px;
+    }
+    .inamo p {
+        text-shadow: 2px 2px black;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(255, 255, 255);
+        margin-top: -120px;
+        text-align: center;
+        inline-size: 600px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .txt {
+        font-size: 60px;
+        text-shadow: 3px 3px black;
+        font-style: bold;
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -50px;
+    }
+    .btn {
+        margin-top: 75px;
+    }
+    .inamo p {
+        text-shadow: 2px 2px black;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(255, 255, 255);
+        margin-top: 15px;
+        text-align: center;
+        inline-size: 600px;
+    }
+}
+footer{
+    background-color: bisque;
+}
+
